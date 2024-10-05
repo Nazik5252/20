@@ -44,6 +44,7 @@ int main()
  c.X = 5 + j * 5;
  c.Y = 3 + i;
  SetConsoleCursorPosition(hnd, c);
+ // K<F
  cout << A[i][j];
  }
  }
