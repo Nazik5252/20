@@ -7,10 +7,10 @@ int main()
  HANDLE hnd = GetStdHandle(STD_OUTPUT_HANDLE);
  float A[10][10], B[10][10];
  int i, j, n;
- // Ввод исходных данных
+ // пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
  cout << "Input the size of the matrix n" << endl;
  cin >> n;
- cout << "Input matrix А" << endl;
+ cout << "Input matrix пїЅ" << endl;
  for (i = 0; i < n; i++)
  {
  for (j = 0; j < n; j++)
@@ -21,7 +21,7 @@ int main()
  cin >> A[i][j];
  }
  }
- // Обработка данных
+ // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
  //2003i3948
  //0562057
  for (i = 0; i < n; i++)
@@ -38,7 +38,7 @@ int main()
  }
  }
  }
- // Вывод результата
+ // пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
  for (i = 0; i < n; i++)
  {
  for (j = 0; j < n; j++)
@@ -52,3 +52,4 @@ int main()
  }
  return 0;
 }
+// commit 
